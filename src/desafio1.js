@@ -45,8 +45,4 @@ class ProductManager {
 
 export default ProductManager;
 
-const manager = new ProductManager();
-manager.addProduct('Cafetera', 'Cafetera con filtro', 99.99, 'cafetera.jpg', 'CAF1001', 10);
-const products = manager.getProducts();
-const product = manager.getProductById(1);
 
